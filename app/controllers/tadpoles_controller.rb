@@ -49,6 +49,7 @@ class TadpolesController < ApplicationController
 
   def metamorphose
   end
+  
   private
     def set_tadpole
       @tadpole = Tadpole.find(params[:id])
